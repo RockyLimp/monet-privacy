@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>монета — Поддержка / Support</title>
+<style>
+  :root { color-scheme: light dark; --ink:#111; --muted:#666; --bg:#fff; --line:#e5e5e5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#f2f2f2; --muted:#9a9a9a; --bg:#111; --line:#2a2a2a; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 0 16px;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 48px 0 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+  h2 { font-size: 1.15rem; margin: 40px 0 10px; letter-spacing: -0.01em; }
+  p, li { color: var(--ink); }
+  .muted { color: var(--muted); font-size: .9rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin: 6px 0; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 56px 0; }
+  a { color: inherit; }
+  .lang { font-size: .9rem; color: var(--muted); margin: 0 0 24px; }
+  .lang strong { color: var(--ink); font-weight: 600; }
+  h3 { font-size: 1rem; margin: 28px 0 6px; }
+</style>
+</head>
+<body>
+<main id="top">
+
+<p class="lang"><strong>Русский</strong> · <a href="#en">English</a></p>
+
+<h1>монета — поддержка</h1>
+<p class="muted">Приложение для учёта расходов. Все данные остаются на вашем устройстве.</p>
+
+<h2>Написать разработчику</h2>
+<p>По любому вопросу — ошибка, предложение, не работает покупка:<br>
+<a href="mailto:roman.pavel.05@gmail.com">roman.pavel.05@gmail.com</a></p>
+<p>Отвечаю обычно в течение нескольких дней. Если пишете об ошибке, помогает
+указать модель телефона и версию iOS.</p>
+
+<h2>Частые вопросы</h2>
+
+<h3>Я переустановил приложение и потерял купленные темы</h3>
+<p>Откройте «Настройки» → «Тема оформления», выберите платный набор и нажмите
+«Восстановить покупки». Покупка привязана к Apple ID, повторно платить не нужно.</p>
+
+<h3>Как перенести данные на новый телефон</h3>
+<p>В «Настройках» есть резервная копия: она сохраняет все операции, цели и
+настройки в один файл. Сохраните его себе, а на новом телефоне выберите
+восстановление из этого файла.</p>
+
+<h3>Зарплата приходит не первого числа</h3>
+<p>«Настройки» → «Планирование бюджета» → «Расчётный период». Поставьте день,
+когда приходят деньги, и остаток будет считаться до следующей зарплаты, а не
+до конца календарного месяца.</p>
+
+<h3>Деньги с прошлого месяца не учитываются</h3>
+<p>Там же, в «Планировании бюджета», есть «Остаток с прошлого месяца». Укажите,
+сколько было на счету до первой записи, — и остаток начнёт переходить
+в новый месяц.</p>
+
+<h3>Приложение просит Face ID, а я хочу без него</h3>
+<p>«Настройки» → выключите «Face ID для входа».</p>
+
+<h3>Как удалить все данные</h3>
+<p>«Настройки» → «Очистить все данные». Удаляются операции, цели, лимиты,
+повторяющиеся платежи и свои категории. Отменить это нельзя, поэтому
+сначала имеет смысл сделать резервную копию.</p>
+
+<h2>Конфиденциальность</h2>
+<p>Приложение не собирает данные и не отправляет их никуда:
+<a href="./">политика конфиденциальности</a>.</p>
+
+<hr>
+
+<p class="lang"><a href="#top">Русский</a> · <strong>English</strong></p>
+
+<h1 id="en">monet — Support</h1>
+<p class="muted">An expense tracker. All your data stays on your device.</p>
+
+<h2>Contact the developer</h2>
+<p>For anything at all — a bug, a suggestion, a purchase that did not go
+through:<br>
+<a href="mailto:roman.pavel.05@gmail.com">roman.pavel.05@gmail.com</a></p>
+<p>I usually reply within a few days. For bug reports it helps to include your
+iPhone model and iOS version.</p>
+
+<h2>Common questions</h2>
+
+<h3>I reinstalled the app and lost the themes I bought</h3>
+<p>Open Settings → Theme, pick the paid pack and tap "Restore purchases".
+Purchases are tied to your Apple ID, so you will not be charged again.</p>
+
+<h3>How do I move my data to a new phone</h3>
+<p>Settings has a backup option: it saves every transaction, goal and setting
+into a single file. Keep that file, then restore from it on the new phone.</p>
+
+<h3>I do not get paid on the 1st of the month</h3>
+<p>Settings → Budget planning → Budget period. Set the day you get paid, and
+what is left will count down to your next payday instead of to the end of the
+calendar month.</p>
+
+<h3>Last month's money is not counted</h3>
+<p>In the same Budget planning screen there is "Carried-over balance". Enter
+what you had before your first entry, and leftovers will carry into the new
+month.</p>
+
+<h3>The app asks for Face ID and I would rather it did not</h3>
+<p>Settings → turn off "Face ID unlock".</p>
+
+<h3>How do I delete everything</h3>
+<p>Settings → "Clear all data". This removes transactions, goals, limits,
+recurring payments and custom categories. It cannot be undone, so make a
+backup first if you might want the data later.</p>
+
+<h2>Privacy</h2>
+<p>The app collects no data and sends nothing anywhere:
+<a href="./">privacy policy</a>.</p>
+
+</main>
+</body>
+</html>
